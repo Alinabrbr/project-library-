@@ -237,3 +237,16 @@ label {
 .contacts-text {
     margin-bottom: 20px;
 }
+
+.form-name {
+    margin-bottom: 20px;
+}
+
+.container-library {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    width: 30%;
+}
