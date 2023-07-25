@@ -247,6 +247,39 @@ label {
     justify-content: space-between;
 }
 
+.form {
+    margin-bottom: 40px;
+}
+
 .login {
     width: 30%;
+}
+
+.footer {
+    background-color: #0C0C0E;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Inter';
+}
+
+.first-line, .second-line, .third-line {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.first-line, .second-line {
+    font-size: 15px;
+}
+
+.third-line {
+    font-size: 20px;
+    margin-top: 44px;
+}
+
+hr {
+    border: none;
+    background-color: #ffffff;
+    height: 1px;
 }
