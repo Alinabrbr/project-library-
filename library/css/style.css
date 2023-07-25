@@ -101,6 +101,7 @@ section {
     border-bottom: 1px solid black;
     height: 60px;
     width: 20px;
+    margin: 40px 0;
 }
 
 .about-text {
@@ -219,4 +220,20 @@ label {
 .menu-item {
     margin-bottom: 40px;
     list-style: none;
+}
+
+.container-contacts {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.contacts-subtitle {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contacts-text {
+    margin-bottom: 20px;
 }
