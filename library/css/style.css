@@ -47,7 +47,7 @@ section {
 
 }
 
-.menu {
+.nav {
     font-size: 20px;
     display: flex;
     flex-wrap: nowrap;
@@ -57,7 +57,6 @@ section {
 
 .nav-header {
     display: flex;
-
 }
 
 .nav-list {
@@ -105,10 +104,8 @@ section {
 }
 
 .about-text {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    text-align: center;
     padding: 10px 0;
+    text-align: center;
 }
 
 .carousel-images {
@@ -196,4 +193,30 @@ label {
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.menu-list {
+    color: #BB945F;
+    font-family: "Forum";
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+    list-style: none;
 }

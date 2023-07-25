@@ -6,155 +6,185 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">Brooklyn Public Library</div>
-        <div class="menu">
-            <nav class="nav-header">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#favorites" class="nav-link">Favorites</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#coffee-shop" class="nav-link">Coffee shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contacts" class="nav-link">Contacts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#library-card" class="nav-link">Library Card</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="icon-profile">
-                <img src="images/icon_profile.png" alt="icon-profile">
+<header class="header">
+    <div class="logo">Brooklyn Public Library</div>
+    <div class="nav">
+        <nav class="nav-header">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#favorites" class="nav-link">Favorites</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#coffee-shop" class="nav-link">Coffee shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#library-card" class="nav-link">Library Card</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="icon-profile">
+            <img src="images/icon_profile.png" alt="icon-profile">
+        </div>
+    </div>
+
+</header>
+
+<section class="section-welcome">
+    <div class="section-title">
+        <h1 class="title">Welcome<br> to the Brooklyn <br>Library</h1>
+    </div>
+</section>
+
+<section class="section-about">
+    <h2 id="about" class="about-title subject">About</h2>
+    <p class="about-text text">The Brooklyn Library is a free workspace,
+        a large number of books and a cozy coffee shop inside</p>
+    <div class="carousel-images">
+        <img src="images/about/image 1.jpg" class="image-item" alt="image1">
+        <img src="images/about/image 2.jpg" class="image-item" alt="image2">
+        <img src="images/about/image 3.jpg" class="image-item" alt="image3">
+    </div>
+    <div class="carousel-pagination">
+        <div class="carousel-button">
+            <div class="button-circle"></div>
+        </div>
+        <div class="carousel-button">
+            <div class="button-circle"></div>
+        </div>
+        <div class="carousel-button">
+            <div class="button-circle"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-favorites section">
+    <h2 id="favorites" class="favorites-title subject">Favorites</h2>
+    <p class="favorites-subtitle">Pick favorites of season</p>
+
+    <div class="inputs-container">
+        <div class="inputs">
+            <input type="radio" id="seasons1"
+                   name="seasons" value="email" checked>
+            <label for="seasons1">Winter</label>
+        </div>
+
+        <div class="inputs">
+            <input type="radio" id="seasons2"
+                   name="seasons" value="phone">
+            <label for="seasons2">Spring</label>
+        </div>
+
+        <div class="inputs">
+            <input type="radio" id="seasons3"
+                   name="seasons" value="mail">
+            <label for="seasons3">Summer</label>
+        </div>
+
+        <div class="inputs">
+            <input type="radio" id="seasons4"
+                   name="seasons" value="mail">
+            <label for="seasons4">Autumn</label>
+        </div>
+
+    </div>
+    <div class="container-cards">
+        <div class="card">
+            <div class="card-content">
+                <p class="card-title">Staff Picks</p>
+                <p class="card-subtitle">The Book Eaters</p>
+                <p class="card-author">By Sunyi Dean</p>
+                <p class="card-about">An unusual sci-fi story about a book eater woman who tries
+                    desperately to save her dangerous mind-eater son from tradition
+                    and certain death. Complete with dysfunctional family values,
+                    light Sapphic romance, and a strong, complex protagonist.
+                    Not for the faint of heart.</p>
+                <button>Buy</button>
+                <img class="book" src="images/books-winter/book1.jpg" alt="book1">
             </div>
         </div>
 
-    </header>
-
-    <section class="section-welcome">
-        <div class="section-title">
-            <h1 class="title">Welcome<br> to the Brooklyn <br>Library</h1>
-        </div>
-    </section>
-
-    <section class="section-about">
-        <h2 id="about" class="about-title subject">About</h2>
-        <p class="about-text">The Brooklyn Library is a free workspace,
-                a large number of books and a cozy coffee shop inside</p>
-        <div class="carousel-images">
-            <img src="images/about/image 1.jpg" class="image-item" alt="image1">
-            <img src="images/about/image 2.jpg" class="image-item" alt="image2">
-            <img src="images/about/image 3.jpg" class="image-item" alt="image3">
-        </div>
-        <div class="carousel-pagination">
-            <div class="carousel-button">
-                <div class="button-circle"></div>
-            </div>
-            <div class="carousel-button">
-                <div class="button-circle"></div>
-            </div>
-            <div class="carousel-button">
-                <div class="button-circle"></div>
+        <div class="card">
+            <div class="card-content">
+                <p class="card-title">Staff Picks</p>
+                <p class="card-subtitle">The Book Eaters</p>
+                <p class="card-author">By Sunyi Dean</p>
+                <p class="card-about">An unusual sci-fi story about a book eater woman who tries
+                    desperately to save her dangerous mind-eater son from tradition
+                    and certain death. Complete with dysfunctional family values,
+                    light Sapphic romance, and a strong, complex protagonist.
+                    Not for the faint of heart.</p>
+                <button>Buy</button>
+                <img class="book" src="images/books-winter/book2.jpg" alt="book2">
             </div>
         </div>
-    </section>
 
-    <section class="section-favorites section">
-        <h2 id="favorites" class="favorites-title subject">Favorites</h2>
-        <p class="favorites-subtitle">Pick favorites of season</p>
-
-        <div class="inputs-container">
-            <div class="inputs">
-                <input type="radio" id="seasons1"
-                       name="seasons" value="email" checked>
-                <label for="seasons1">Winter</label>
+        <div class="card">
+            <div class="card-content">
+                <p class="card-title">Staff Picks</p>
+                <p class="card-subtitle">The Book Eaters</p>
+                <p class="card-author">By Sunyi Dean</p>
+                <p class="card-about">An unusual sci-fi story about a book eater woman who tries
+                    desperately to save her dangerous mind-eater son from tradition
+                    and certain death. Complete with dysfunctional family values,
+                    light Sapphic romance, and a strong, complex protagonist.
+                    Not for the faint of heart.</p>
+                <button>Buy</button>
+                <img class="book" src="images/books-winter/book3.jpg" alt="book3">
             </div>
+        </div>
 
-            <div class="inputs">
-                <input type="radio" id="seasons2"
-                       name="seasons" value="phone">
-                <label for="seasons2">Spring</label>
+        <div class="card">
+            <div class="card-content">
+                <p class="card-title">Staff Picks</p>
+                <p class="card-subtitle">The Book Eaters</p>
+                <p class="card-author">By Sunyi Dean</p>
+                <p class="card-about">An unusual sci-fi story about a book eater woman who tries
+                    desperately to save her dangerous mind-eater son from tradition
+                    and certain death. Complete with dysfunctional family values,
+                    light Sapphic romance, and a strong, complex protagonist.
+                    Not for the faint of heart.</p>
+                <button>Buy</button>
+                <img class="book" src="images/books-winter/book4.jpg" alt="book4">
             </div>
+        </div>
 
-            <div class="inputs">
-                <input type="radio" id="seasons3"
-                       name="seasons" value="mail">
-                <label for="seasons3">Summer</label>
-            </div>
+    </div>
+</section>
 
-            <div class="inputs">
-                <input type="radio" id="seasons4"
-                       name="seasons" value="mail">
-                <label for="seasons4">Autumn</label>
-            </div>
+<section class="section-coffee-shop">
+    <h2 class="subject">Coffee Shop</h2>
+    <p class="text">In our library, we have of cozy coffee shop,
+        welcoming in customers with frothy cappuccinos and friendly conversation.<br>
+        You can get a favorite book and read in coffee shop. Our barista to cook
+        you best coffee, and also you can try desserts from bakery.</p>
+    <div class="menu">
+        <div class="first-column">
+            <ul class="menu-list">Coffee &#38; Tea</ul>
+                <li class="menu-item">Cold Brew Coffee 3&#36;</li>
+                <li class="menu-item">French Press Pot 5&#36;</li>
+                <li class="menu-item">Espresso 2&#36;</li>
+                <li class="menu-item">Cappuccino 4&#36;</li>
+                <li class="menu-item">Hot tea 2&#36;</li>
+                <li class="menu-item">Cold tea 2&#36;</li>
 
         </div>
-        <div class="container-cards">
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Staff Picks</p>
-                    <p class="card-subtitle">The Book Eaters</p>
-                    <p class="card-author">By Sunyi Dean</p>
-                    <p class="card-about">An unusual sci-fi story about a book eater woman who tries
-                        desperately to save her dangerous mind-eater son from tradition
-                        and certain death. Complete with dysfunctional family values,
-                        light Sapphic romance, and a strong, complex protagonist.
-                        Not for the faint of heart.</p>
-                    <button>Buy</button>
-                    <img class="book" src="images/books-winter/book1.jpg"  alt="book1">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Staff Picks</p>
-                    <p class="card-subtitle">The Book Eaters</p>
-                    <p class="card-author">By Sunyi Dean</p>
-                    <p class="card-about">An unusual sci-fi story about a book eater woman who tries
-                        desperately to save her dangerous mind-eater son from tradition
-                        and certain death. Complete with dysfunctional family values,
-                        light Sapphic romance, and a strong, complex protagonist.
-                        Not for the faint of heart.</p>
-                    <button>Buy</button>
-                    <img class="book" src="images/books-winter/book2.jpg"  alt="book2">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Staff Picks</p>
-                    <p class="card-subtitle">The Book Eaters</p>
-                    <p class="card-author">By Sunyi Dean</p>
-                    <p class="card-about">An unusual sci-fi story about a book eater woman who tries
-                        desperately to save her dangerous mind-eater son from tradition
-                        and certain death. Complete with dysfunctional family values,
-                        light Sapphic romance, and a strong, complex protagonist.
-                        Not for the faint of heart.</p>
-                    <button>Buy</button>
-                    <img class="book" src="images/books-winter/book3.jpg"  alt="book3">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Staff Picks</p>
-                    <p class="card-subtitle">The Book Eaters</p>
-                    <p class="card-author">By Sunyi Dean</p>
-                    <p class="card-about">An unusual sci-fi story about a book eater woman who tries
-                        desperately to save her dangerous mind-eater son from tradition
-                        and certain death. Complete with dysfunctional family values,
-                        light Sapphic romance, and a strong, complex protagonist.
-                        Not for the faint of heart.</p>
-                    <button>Buy</button>
-                    <img class="book" src="images/books-winter/book4.jpg"  alt="book4">
-                </div>
-            </div>
-
+        <div class="second-column">
+            <ul class="menu-list">Desserts &#38; Cakes</ul>
+                <li class="menu-item">Forest Gateau 16&#36;</li>
+                <li class="menu-item">Blue Moon 16&#36;</li>
+                <li class="menu-item">Truffle Cake 15&#36;</li>
+                <li class="menu-item">Chocolate Cake 18&#36;</li>
+                <li class="menu-item">Poet’s Dream Cake 16&#36;</li>
+                <li class="menu-item">Pineapple Cake 14&#36;</li>
         </div>
-    </section>
+    </div>
+</section>
+
 </body>
 </html>
