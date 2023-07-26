@@ -50,9 +50,6 @@ section {
 .nav {
     font-size: 20px;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .nav-header {
@@ -64,10 +61,32 @@ section {
     list-style: none;
 }
 
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-size: 25px;
+    color: #BB945F
+}
+.nav-link:focus {
+    font-size: 25px;
+    color: #BB945F
+}
+
 .section-welcome {
     background-image: url("../images/Welcome.jpg");
     width: 100%;
     height: 600px;
+}
+
+.button-circle:hover {
+    background-color: #BB945F;
 }
 
 .section-title {
@@ -93,14 +112,18 @@ section {
 .section-about {
     background-color: #ffffff;
 }
+.container-subject {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
 
 .subject {
     color: #0C0C0E;
     font-family: "Forum";
     font-size: 40px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0C0C0E;
     height: 60px;
-    width: 20px;
     margin: 40px 0;
 }
 
@@ -172,8 +195,18 @@ label {
     padding-left: 20px;
 }
 
+.card-button {
+    background-color: #ffffff;
+    border: 1px solid #0C0C0E;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 10px;
+    padding: 9px 27px;
+    margin-bottom: 15px;
+}
+
 .card-about {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 15px;
     font-weight: 400;
     line-height: 2;
@@ -208,6 +241,7 @@ label {
     font-size: 20px;
     text-align: center;
     margin: 40px 0;
+    line-height: 2;
 }
 
 .menu-list {
@@ -240,21 +274,93 @@ label {
 
 .form-name {
     margin-bottom: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
 }
 
 .container-library {
     display: flex;
     justify-content: space-between;
 }
+.container-form {
+    width: 45%;
+}
 
 .form {
-    margin-bottom: 40px;
+    border: 2px solid #BB945F;
+    box-shadow: 0 2px 2px #BB945F;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 41px;
+}
+
+.container-button {
+    text-align: center;
+}
+
+.fieldset-title {
+    margin: 20px 0;
+    font-family: "Forum";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.fieldset {
+    background-color: #BB945F;
+    font-size: 30px;
+    padding: 0 40px 0 20px;
+    border: none;
+}
+
+.fieldset-input {
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #BB945F;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #8E8E8E;
+    padding-left: 20px;
+    padding-bottom: 24px;
+    padding-top: 22px;
 }
 
 .login {
     width: 30%;
+    text-align: right;
 }
 
+.button {
+    background-color: #ffffff;
+    border: 1px solid #0C0C0E;
+}
+
+.login-button {
+    padding: 9px 15px;
+    margin-left: 20px;
+}
+
+.fieldset-button {
+    padding: 10px 40px;
+    margin: 20px 30px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.login-title {
+    margin-bottom: 25px;
+    font-family: 'Forum';
+    font-size: 30px;
+}
+
+.login-text {
+    margin-bottom: 25px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+}
 .footer {
     background-color: #0C0C0E;
     width: 100%;
@@ -282,4 +388,8 @@ hr {
     border: none;
     background-color: #ffffff;
     height: 1px;
+}
+
+.footer-icon {
+    margin-right: 17px;
 }
