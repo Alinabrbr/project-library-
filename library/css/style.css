@@ -85,15 +85,6 @@ section {
     text-decoration: none;
 }
 
-.nav-link:hover {
-    font-size: 25px;
-    color: #BB945F
-}
-
-.nav-link:focus {
-    font-size: 25px;
-    color: #BB945F
-}
 .icon-profile {
     margin-left: 10px;
 }
@@ -110,9 +101,11 @@ section {
     max-width: 33%;
 }
 
-.button-circle:hover {
+.button-circle:hover, .button-circle:active, .button-circle:focus {
     background-color: #BB945F;
+    transition: 3s;
 }
+
 
 .section-title {
     background-color: #0C0C0E;
@@ -571,4 +564,27 @@ hr {
 
 .footer-icon {
     margin-right: 12px;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover, a:focus {
+    color: #BB945F;
+    transition: .3s;
+    cursor: pointer
+}
+
+a:active {
+    color: #BB945F;
+    transition: .5s;
+    cursor: pointer;
 }
