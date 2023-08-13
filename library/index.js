@@ -1,1 +1,8 @@
-console.log("Все пункты старалась выполнить, но возможно что-то все же пропустила, интерактивность не доработана, оцениваю в 80-90 баллов")
+
+let menuBurger = document.querySelector('.menu-burger-container');
+let menu = document.querySelector('.menu-burger_list');
+
+menuBurger.addEventListener('click', function(){
+    menuBurger.classList.toggle('active');
+    menu.classList.toggle('active');
+})

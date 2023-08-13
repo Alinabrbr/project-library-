@@ -263,6 +263,7 @@ label {
     position: relative;
     left: 9px;
     bottom: -1px;
+    z-index: 1;
 }
 
 .card-button {
@@ -490,7 +491,7 @@ label {
 }
 
 .login {
-    width: 37%;
+    width: 30%;
     text-align: right;
 }
 
@@ -631,4 +632,190 @@ a:active {
     color: #BB945F;
     transition: .5s;
     cursor: pointer;
+}
+
+.menu-burger-container {
+    display: none;
+    z-index: 10;
+}
+
+.menu-burger_list {
+    display: none;
+    z-index: 9;
+}
+
+.burger-list {
+    margin: 100px 107px;
+    text-align: center;
+    font-family: var(--first-family);
+    font-size: 20px;
+    line-height: 50px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    /*Header*/
+    .nav-header {
+        display: none;
+    }
+    .menu-burger_list {
+        display: block;
+    }
+
+    .menu-burger-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    /* Гамбургер иконка */
+    .menu-burger {
+        width: 45px;
+        height: 20px;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
+    }
+
+    .menu-burger span {
+        width: 45px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+
+    .menu-burger span:nth-of-type(2) {
+        top: calc(50% - 9px);
+    }
+    .menu-burger span:nth-of-type(3) {
+        top: calc(50% + 9px);
+    }
+
+    /* Меняем гамбургер иконку, когда меню открыто */
+    .menu-burger.active span:nth-of-type(1) {
+        display: none;
+    }
+    .menu-burger.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);
+    }
+    .menu-burger.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg);
+    }
+
+    /* Меню, которое будет появляться */
+    .menu-burger_list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 332px;
+        height: 570px;
+        padding: 15px;
+        background: #0C0C0E;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+    .menu-burger_list.active {
+        transform: translateX(600px);
+    }
+
+    .menu-burger_list li {
+        list-style-type: none;
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon-profile {
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .div-container_menu {
+        display: flex;
+    }
+
+    .burger-link > a:-webkit-any-link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .burger-link {
+        margin-bottom: 30px;
+    }
+
+    /*section Welcome*/
+    .section-welcome {
+        background-image: url("../images/tablet-768/welcome.jpg");
+    }
+
+    .section-title {
+        width: 600px;
+        height: 220px;
+    }
+
+    /*section About*/
+    /*section Favorites*/
+    .inputs-container {
+        width: auto;
+    }
+
+    .container-cards {
+        display: grid;
+        justify-content: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /*section Coffee Shop*/
+    .menu {
+        flex-direction: column;
+    }
+
+    .first-column {
+        display: grid;
+        align-content: center;
+        justify-content: start;
+    }
+
+    .second-column {
+        display: grid;
+        justify-content: end;
+    }
+    /*section Our Contacts*/
+    .container-contacts-info {
+        flex-direction: column;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*section Digital Library Cards*/
+    .container-library-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login {
+        text-align: center;
+        width: 60%;
+    }
+
+    .login-button {
+        margin-bottom: 40px;
+    }
+    /*Footer*/
 }
