@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brooklyn Public Library</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon_io/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<header class="header">
+    <div class="container-header container">
+        <div class="logo">
+            Brooklyn Public Library
+        </div>
+        <div class="nav">
+            <nav class="nav-header">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#favorites" class="nav-link">Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link">Coffee shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#library" class="nav-link">Library Card</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="div-container_menu">
+                <div class="icon-profile">
+                    <img src="images/icon_profile.png" alt="icon-profile">
+                </div>
+
+                <div class="menu-burger-container">
+                    <div class="menu-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="menu-burger_list">
+                    <nav>
+                        <ul class="burger-list">
+                            <li class="burger-link"><a href="#">About</a></li>
+                            <li class="burger-link"><a href="#">Favorites</a></li>
+                            <li class="burger-link"><a href="#">Coffee shop</a></li>
+                            <li class="burger-link"><a href="#">Contacts</a></li>
+                            <li class="burger-link"><a href="#">Library Card</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+<main>
+    <section class="section-welcome">
+        <div class="container-welcome container">
+            <div class="section-title">
+                <h1 class="title">Welcome<br> to the Brooklyn <br>Library</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about section">
+        <div class="container-about container">
+            <div class="container-subject">
+                <h2 id="about" class="subject">About</h2>
+            </div>
+            <div class="decor-line">
+                <hr class="subject-decor-line">
+            </div>
+            <p class="about-text text">The Brooklyn Library is a free workspace,
+                a large number of books and a cozy coffee shop inside</p>
+            <div class="carousel-images">
+                <img src="images/about/image1.jpg" class="image-item" alt="image1">
+                <img src="images/about/image2.jpg" class="image-item" alt="image2">
+                <img src="images/about/image3.jpg" class="image-item" alt="image3">
+            </div>
+            <div class="carousel-pagination">
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+            </div>
+            <div class="carousel-images-tablet">
+                <img src="images/tablet-768/arrows/Arrow2.svg" class="arrow" alt="icon-arrow">
+                <img src="images/about/image1.jpg" class="image-item image-tablet" alt="image1">
+                <img src="images/tablet-768/arrows/Arrow1.svg" class="arrow" alt="icon-arrow">
+            </div>
+            <div class="carousel-pagination-tablet">
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+                <div class="carousel-button">
+                    <div class="button-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-favorites section">
+        <div class="container-favorites container">
+            <div class="container-subject">
+                <h2 id="favorites" class="subject">Favorites</h2>
+            </div>
+            <div class="decor-line">
+                <hr class="subject-decor-line">
+            </div>
+            <p class="favorites-subtitle">Pick favorites of season</p>
+
+            <div class="inputs-container">
+                <div class="inputs">
+                    <input type="radio" id="seasons1"
+                           name="seasons" value="email" checked>
+                    <label for="seasons1">Winter</label>
+                </div>
+
+                <div class="inputs">
+                    <input type="radio" id="seasons2"
+                           name="seasons" value="phone">
+                    <label for="seasons2">Spring</label>
+                </div>
+
+                <div class="inputs">
+                    <input type="radio" id="seasons3"
+                           name="seasons" value="mail">
+                    <label for="seasons3">Summer</label>
+                </div>
+
+                <div class="inputs">
+                    <input type="radio" id="seasons4"
+                           name="seasons" value="mail">
+                    <label for="seasons4">Autumn</label>
+                </div>
+            </div>
+
+            <div class="container-cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="container-card-title">
+                                <p class="card-title">Staff Picks</p>
+                                <hr class="card-decor-line">
+                            </div>
+                            <p class="card-subtitle">The Book Eaters</p>
+                            <p class="card-author">By Sunyi Dean</p>
+                            <p class="card-about">An Unusual Sci-Fi story about a book eater woman who tries
+                                desperately to save her dangerous mind-eater son from tradition
+                                and certain death. Complete with dysfunctional family values,
+                                light Sapphic romance, and a strong, complex protagonist.
+                                Not for the faint of heart.</p>
+                        </div>
+
+                        <div class="container-card-button">
+                            <button class="card-button button">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img class="book" src="images/books-winter/book1.jpg" alt="book1">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <p class="card-title">Staff Picks</p>
+                            <hr class="card-decor-line">
+                            <p class="card-subtitle">Cackle</p>
+                            <p class="card-author">By Rachel Harrison</p>
+                            <p class="card-about">Are your Halloween movies of choice The Witches
+                                of Eastwick and Practical Magic? Look no further than here - where
+                                a woman recovering from a breakup moves to a quaint town in upstate
+                                New York and befriends a beautiful witch.</p>
+                        </div>
+
+                        <div class="container-card-button">
+                            <button class="card-button button">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img class="book" src="images/books-winter/book2.jpg" alt="book2">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <p class="card-title">Staff Picks</p>
+                            <hr class="card-decor-line">
+                            <p class="card-subtitle">Dante: Poet of the Secular World</p>
+                            <p class="card-author">By Erich Auerbach</p>
+                            <p class="card-about">Auerbach's engaging book places the 'Comedy'
+                                within the tradition of epic, tragedy, and philosophy in general,
+                                arguing for Dante's uniqueness as one who raised the individual and
+                                his drama of soul into something of divine significance— an inspired
+                                introduction to Dante's main themes.</p>
+                        </div>
+
+                        <div class="container-card-button">
+                            <button class="card-button button">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img class="book" src="images/books-winter/book3.jpg" alt="book3">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <p class="card-title">Staff Picks</p>
+                            <hr class="card-decor-line">
+                            <p class="card-subtitle">The Last Queen</p>
+                            <p class="card-author">By Clive Irving</p>
+                            <p class="card-about">A timely and revelatory new biography of Queen Elizabeth
+                                (and her family) exploring how the Windsors have evolved and thrived as the
+                                modern world has changed around them.</p>
+                        </div>
+
+                        <div class="container-card-button">
+                            <button class="card-button button button-other">Own</button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img class="book" src="images/books-winter/book4.jpg" alt="book4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-coffee-shop">
+        <div class="container-coffee-shop container">
+            <div class="container-subject">
+                <h2 id="shop" class="subject">Coffee Shop</h2>
+            </div>
+            <div class="decor-line">
+                <hr class="subject-decor-line">
+            </div>
+            <p class="text-shop text">In our library, we have of cozy coffee shop,
+                welcoming in customers with frothy cappuccinos and friendly conversation.
+                You can get a favorite book and read in coffee shop. Our barista to cook
+                you best coffee, and also you can try desserts from bakery.</p>
+            <div class="menu">
+                <div class="first-column">
+                    <p class="menu-list">Coffee &#38; Tea</p>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            Cold Brew Coffee
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$3</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            French Press Pot
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$5</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            Espresso
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$2</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            Cappuccino
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$4</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            Hot tea
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$2</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="container-menu-item-name">
+                            Cold Tea
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second-column">
+                    <p class="menu-list menu-list-right">Desserts &#38; Cakes</p>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Forest Gateau
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$16</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Blue Moon
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$16</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Truffle Cake
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$15</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Chocolate Cake
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$18</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Poet’s Dream Cake
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$16</p>
+                        </div>
+                    </div>
+                    <div class="container-menu-item">
+                        <div class="second-container-menu-item-name">
+                            Pineapple Cake
+                        </div>
+                        <div class="menu-decor-line-container">
+                            <hr class="menu-decor-line">
+                        </div>
+                        <div>
+                            <p>$14</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-contacts section">
+        <div class="container-contacts container">
+            <div class="container-subject">
+                <h2 id="contacts" class="subject">Our Contacts</h2>
+            </div>
+            <div class="decor-line">
+                <hr class="subject-decor-line">
+            </div>
+            <div class="container-contacts-info">
+                <div class="contacts-text">
+                    <p class="contacts-subtitle"><b>For All Library Inquiries:</b></p>
+                    <div class="container-contacts-phones">
+                        <div class="contacts-text">
+                            Please Call
+                            <a class="contacts-link" href="tel:+6177302370">(617) 730-2370</a>
+                        </div>
+                        <div class="contacts-text">
+                            For TTY Service, Please Call
+                            <a class="contacts-link" href="tel:+6177302370">(617) 730-2370</a>
+                        </div>
+                        <div class="contacts-text">
+                            Putterham Library:
+                            <a class="contacts-link" href="tel:+6177302385">(617) 730-2385</a>
+                        </div>
+                    </div>
+                    <p class="contacts-subtitle"><b>Senior Staff</b></p>
+                    <div class="container-contacts-text">
+                        <div class="contacts-text">
+                            <a class="contacts-link" href="mailto:AmandaHirst@gmail.com">Library Director: <b>Amanda Hirst</b></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <img src="images/map.jpg" alt="map">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="library">
+        <div class="container-library container">
+            <div class="container-subject">
+                <h2 id="library" class="subject">Digital Library Cards</h2>
+            </div>
+            <div class="decor-line">
+                <hr class="subject-decor-line">
+            </div>
+
+            <div class="container-library-cards">
+
+                <div class="container-form">
+                    <p class="form-name">Find your Library card</p>
+                    <div class="form">
+                        <form action="#">
+                            <fieldset class="fieldset">
+                                <p class="fieldset-title">Brooklyn Public Library</p>
+                                <input class="fieldset-input" type="text" name="name" value="Reader's name "><br>
+                                <input class="fieldset-input input-last" type="text" name="number" value="Card number"><br><br>
+                            </fieldset>
+                        </form>
+                        <div class="container-button">
+                            <button class="fieldset-button button">Check the card</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login">
+                    <p class="login-title">Get a reader card</p>
+                    <p class="login-text">You will be able to see a reader card after logging into account
+                        or you can register a new account</p>
+                    <button class="login-button button">Sign Up</button>
+                    <button class="login-button button">Log in</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container-footer container">
+        <div class="first-line">
+            <div>
+                <a  class="link" href="https://yandex.ru/maps/org/kadikoy_belediyesi_tarih_edebiyat_ve_sanat_kutuphanesi/1393614873/?ll=29.421344,40.900839&mode=search&sctx=ZAAAAAgBEAAaKAoSCQrZeRubQUZAEUxtqYO8FkRAEhIJXDy858Dy7z8RZ195kJ4i6z8iBgABAgMEBSgKOABA1wdIAWISbGV0b192X2dvcm9kZT10cnVlagJhbZ0BzcxMPaABAKgBAL0BFLETBsIBhQHElMuF6QGIqLTl2AWp3/H9A+2Q5+8E+sil9vsE8MrtkwT5y4bvBJOE2eTSAcuUrOMEysz/zwTpmLqTBN7Tyb8EmcDDmAWVuKD2A4ni35IEnJzYjv0Dv+WImQTGqNbfA7Pv4fMDqP6w7pAEr7SP/YEB0aOguQSHytbwpAWS2OLjA+Lr3ZwE6gEA8gEA+AEAggIU0LHQuNCx0LvQuNC+0YLQtdC60LCKAgkxODQxMDU4MziSAgCaAgxkZXNrdG9wLW1hcHOqAgs3MzM3NTE2MzMwNw%3D%3D&sll=29.421344,40.900839&sspn=2.185048,1.835774&text=%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0&z=8.87">
+                    286 Cadman Plaza, New York,<br> NY 11238, United States</a>
+            </div>
+            <div>
+                <p class="first-line-text">Mon - Fri<br>08:00 am - 07:00 pm</p>
+            </div>
+        </div>
+        <div class="second-line">
+            <div class="container-icons">
+                <ul class="footer-list">
+                    <li><a href="https://twitter.com/elonmusk"><img class="footer-icon" src="images/footer-icons/icon-twitter.png" alt="icon-twitter"></a></li>
+                    <li><a href="https://instagram.com/via.la.lina?igshid=MmIzYWVlNDQ5Yg=="><img class="footer-icon" src="images/footer-icons/icon-instagram.png" alt="icon-instagram"></a></li>
+                    <li><a href="https://www.facebook.com/groups/ElonMusk/?locale=ru_RU"><img class="footer-icon" src="images/footer-icons/icon-facebook.png" alt="icon-facebook"></a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="second-line-text">Sat - Sun<br>10:00 am - 06:00 pm</p>
+            </div>
+        </div>
+        <hr class="footer-decor-line">
+        <div class="third-line">
+            <div class="third-line-text">
+                <p>2023</p>
+            </div>
+            <div class="third-line-link">
+                <a href="https://rs.school/js-stage0/" class="footer-link">The Rolling Scopes School</a>
+            </div>
+            <div class="third-line-name">
+                <a href="https://github.com/Alinabrbr" class="footer-link">Alina</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
